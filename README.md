@@ -54,10 +54,8 @@ Para realizar una búsqueda, realiza una solicitud GET al endpoint /scrape con e
 Se sugiere realizar esta solicitud GET con Postman agregando manualmente una autorización de tipo
 ```bash
 Auth Type: Bearer Token
-
-```bash
 Token: tuToken
-
+```
 Para esta demostración se buscó la entidad: "Lima".
 Ejemplo:
 ```bash
