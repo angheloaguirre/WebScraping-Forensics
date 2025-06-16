@@ -60,6 +60,7 @@ Para esta demostración se buscó la entidad: "Lima".
 Ejemplo:
 ```bash
 GET http://127.0.0.1:5000/scrape?entity=nombreEntidad
+```
    
 La respuesta será un JSON que contiene los resultados de las búsquedas en las tres bases de datos.
 Para esta demostración se recuperaron 57 hits al buscar la entidad: "Lima".
