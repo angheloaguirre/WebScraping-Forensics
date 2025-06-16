@@ -1,6 +1,10 @@
 # Proyecto de Web Scraping
 
 Este proyecto realiza scraping en varias páginas web utilizando Selenium y Python. El objetivo es obtener información relacionada con ciertas entidades (por ejemplo, empresas o personas) de diferentes bases de datos.
+Páginas web de extracción de datos:
+1. Offshore Leaks Database: https://offshoreleaks.icij.org
+2. The World Bank: https://projects.worldbank.org/en/projectsoperations/procurement/debarred-firms
+3. OFAC: https://sanctionssearch.ofac.treas.gov/
 
 ## Tecnologías utilizadas
 
