@@ -26,8 +26,28 @@ El proyecto se basa en un servidor Flask que expone un punto de acceso (`/scrape
 
 ## Instalación
 
-Para instalar y ejecutar el proyecto en tu entorno local, sigue los siguientes pasos:
+Para instalar y ejecutar el proyecto en un entorno local, seguir los siguientes pasos:
 
-1. **Clona este repositorio**:
+1. **Clonar este repositorio**:
    ```bash
    git clone https://github.com/angheloaguirre/WebScraping-Forensics.git
+   
+2. **Instalar las dependencias**:
+   Instalar pip instalado y ejecutar:
+   ```bash
+   pip install -r requirements.txt
+   
+3. **Configurar las variables**:
+   Configurar el valor deseado del token en app.py.
+   ```bash
+   API_TOKEN = "tuToken"
+   
+4. **Ejecuta el servidor**:
+   ```bash
+   python app.py
+
+El servidor Flask debería estar corriendo en: http://127.0.0.1:5000.
+
+## Uso
+Para realizar una búsqueda, realiza una solicitud GET al endpoint /scrape con el parámetro entity que deseas buscar. Ejemplo:
+   
