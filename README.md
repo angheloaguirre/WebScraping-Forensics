@@ -49,5 +49,28 @@ Para instalar y ejecutar el proyecto en un entorno local, seguir los siguientes 
 El servidor Flask debería estar corriendo en: http://127.0.0.1:5000.
 
 ## Uso
-Para realizar una búsqueda, realiza una solicitud GET al endpoint /scrape con el parámetro entity que deseas buscar. Ejemplo:
+
+Para realizar una búsqueda, realiza una solicitud GET al endpoint /scrape con el parámetro entity que se desea buscar.
+Se sugiere realizar esta solicitud GET con Postman agregando manualmente una autorización de tipo
+```bash
+Auth Type: Bearer Token
+```bash
+Token: tuToken
+
+Para esta demostración se buscó la entidad: "Lima".
+Ejemplo:
+```bash
+GET http://127.0.0.1:5000/scrape?entity=nombreEntidad
    
+La respuesta será un JSON que contiene los resultados de las búsquedas en las tres bases de datos.
+Para esta demostración se recuperaron 57 hits al buscar la entidad: "Lima".
+
+## Estructura del Proyecto
+El proyecto tiene la siguiente estructura de archivos:
+```bash
+│
+├── app.py               # Archivo principal donde se ejecuta el servidor Flask
+├── scraping.py          # Funciones de scraping para Offshore Leaks, World Bank y OFAC
+├── requirements.txt     # Archivo con las dependencias del proyecto
+├── testValuesJson       # Archivo JSON con los valores que se deberían recuperar si se busca la entidad "Lima"
+└── README.md            # Este archivo con la documentación
