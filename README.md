@@ -31,18 +31,34 @@ Para instalar y ejecutar el proyecto en un entorno local, seguir los siguientes 
 1. **Clonar este repositorio**:
    ```bash
    git clone https://github.com/angheloaguirre/WebScraping-Forensics.git
-   
-2. **Instalar las dependencias**:
+
+2. **Configurar un entorno virtual (recomendado)**:
+Se recomienda utilizar un entorno virtual para evitar conflictos con otras dependencias globales de Python.
+Para crear y activar un entorno virtual:
+
+- En Windows:
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+- En macOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3. **Instalar las dependencias**:
    Instalar pip instalado y ejecutar:
    ```bash
    pip install -r requirements.txt
    
-3. **Configurar las variables**:
+4. **Configurar las variables**:
    Configurar el valor deseado del token en app.py.
    ```bash
    API_TOKEN = "tuToken"
    
-4. **Ejecuta el servidor**:
+5. **Ejecuta el servidor**:
    ```bash
    python app.py
 
@@ -64,6 +80,8 @@ GET http://127.0.0.1:5000/scrape?entity=nombreEntidad
    
 La respuesta será un JSON que contiene los resultados de las búsquedas en las tres bases de datos.
 Para esta demostración se recuperaron 57 hits al buscar la entidad: "Lima".
+
+![image](https://github.com/user-attachments/assets/df7f2f13-78d3-4c03-bd21-dfc69ef21a11)
 
 ## Estructura del Proyecto
 El proyecto tiene la siguiente estructura de archivos:
