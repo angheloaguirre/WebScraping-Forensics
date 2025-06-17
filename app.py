@@ -70,11 +70,8 @@ def scrape():
 
     # Obtenemos los parámetros booleanos para cada fuente de datos
     offshore = request.args.get('offshore', 'false').lower() == 'true'
-    print(offshore)
     world_bank = request.args.get('worldBank', 'false').lower() == 'true'
-    print(world_bank)
     ofac = request.args.get('ofac', 'false').lower() == 'true'
-    print(ofac)
     
     # Incrementamos el contador de solicitudes
     request_count += 1
