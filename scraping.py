@@ -127,6 +127,16 @@ def world_bank_scraping(entity_name):
         EC.presence_of_element_located((By.ID, "category"))
     )
 
+    # Esperar a que los resultados se carguen completamente
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.CLASS_NAME, "k-grid-content"))
+    )
+
+    # Esperar a que desaparezca cualquier animación de carga (si existe)
+    WebDriverWait(driver, 20).until(
+        EC.invisibility_of_element_located((By.CLASS_NAME, "k-loading-image"))
+    )
+
     # Buscar el campo de búsqueda y completar con la entidad
     search_field = driver.find_element(By.ID, "category")
     search_field.clear()
@@ -137,16 +147,6 @@ def world_bank_scraping(entity_name):
 
     # Enviar la búsqueda presionando la tecla Enter
     search_field.send_keys(Keys.RETURN)
-
-    # Esperar a que los resultados se carguen completamente
-    WebDriverWait(driver, 20).until(
-        EC.presence_of_element_located((By.CLASS_NAME, "k-grid-content"))
-    )
-
-    # Esperar a que desaparezca cualquier animación de carga (si existe)
-    WebDriverWait(driver, 20).until(
-        EC.invisibility_of_element_located((By.CLASS_NAME, "k-loading-image"))
-    )
 
     # Extraer la tabla de resultados
     rows = driver.find_elements(By.CSS_SELECTOR, "tr[data-uid]")  # Selección de las filas de la tabla
@@ -231,7 +231,7 @@ def ofac_scraping(entity_name):
             })
 
     num_hits = len(data) - 1
-    data[0] = num_hits
+    data[0] = {'hits': num_hits}
     # Cerramos el navegador
     driver.quit()
 

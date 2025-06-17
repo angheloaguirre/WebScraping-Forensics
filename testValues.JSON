@@ -1,604 +1,608 @@
 {
     "hits": 57,
-    "ofac_leaks": [
-        2,
-        {
-            "address": "Queens Plaza Center, Section 401; Property 132",
-            "list": "SDN",
-            "name": "ELIT LIMA",
-            "program": "SDGT",
-            "score": "100",
-            "type": "Entity"
-        },
-        {
-            "address": "Queens Plaza Center, Section 401; Property 132",
-            "list": "SDN",
-            "name": "ELIT LIMASSOL (LIMA) CO.",
-            "program": "SDGT",
-            "score": "100",
-            "type": "Entity"
-        }
-    ],
-    "offshore_leaks": [
-        {
-            "hits": 33
-        },
-        {
-            "Data From": {
-                "source": "Panama Papers",
-                "url": "https://www.icij.org/investigations/panama-papers"
-            },
-            "Entity": {
-                "name": "LIMA FOUNDATION",
-                "url": "https://offshoreleaks.icij.org/nodes/10162716"
-            },
-            "Jurisdiction": "Panama",
-            "Linked To": "Luxembourg"
-        },
-        {
-            "Data From": {
-                "source": "Paradise Papers",
-                "url": "https://www.icij.org/investigations/paradise-papers"
-            },
-            "Entity": {
-                "name": "LIMA LIMITED",
-                "url": "https://offshoreleaks.icij.org/nodes/30022131"
-            },
-            "Jurisdiction": "Bahamas",
-            "Linked To": "Bahamas"
-        },
-        {
-            "Data From": {
-                "source": "Panama Papers",
-                "url": "https://www.icij.org/investigations/panama-papers"
-            },
-            "Entity": {
-                "name": "LIMA PROPERTIES S.A.",
-                "url": "https://offshoreleaks.icij.org/nodes/10058978"
-            },
-            "Jurisdiction": "Panama",
-            "Linked To": "Panama"
-        },
-        {
-            "Data From": {
-                "source": "Panama Papers",
-                "url": "https://www.icij.org/investigations/panama-papers"
-            },
-            "Entity": {
-                "name": "\"LIMA STROYCOM\" LTD.",
-                "url": "https://offshoreleaks.icij.org/nodes/10039263"
-            },
-            "Jurisdiction": "Niue",
-            "Linked To": "Russia"
-        },
-        {
-            "Data From": {
-                "source": "Panama Papers",
-                "url": "https://www.icij.org/investigations/panama-papers"
-            },
-            "Entity": {
-                "name": "LIMA INTERNATIONAL LIMITED",
-                "url": "https://offshoreleaks.icij.org/nodes/10039906"
-            },
-            "Jurisdiction": "Niue",
-            "Linked To": "Cyprus"
-        },
-        {
-            "Data From": {
-                "source": "Panama Papers",
-                "url": "https://www.icij.org/investigations/panama-papers"
-            },
-            "Entity": {
-                "name": "LIMA INTERNATIONAL LTD.",
-                "url": "https://offshoreleaks.icij.org/nodes/10077782"
-            },
-            "Jurisdiction": "British Virgin Islands",
-            "Linked To": "Singapore"
-        },
-        {
-            "Data From": {
-                "source": "Panama Papers",
-                "url": "https://www.icij.org/investigations/panama-papers"
-            },
-            "Entity": {
-                "name": "LIMA EQUITIES S.A.",
-                "url": "https://offshoreleaks.icij.org/nodes/10019751"
-            },
-            "Jurisdiction": "Panama",
-            "Linked To": "Luxembourg"
-        },
-        {
-            "Data From": {
-                "source": "Offshore Leaks",
-                "url": "https://www.icij.org/investigations/offshore"
-            },
-            "Entity": {
-                "name": "Lima Trading SA",
-                "url": "https://offshoreleaks.icij.org/nodes/199245"
-            },
-            "Jurisdiction": "Not identified",
-            "Linked To": "British Virgin Islands, United Kingdom"
-        },
-        {
-            "Data From": {
-                "source": "Bahamas Leaks",
-                "url": "https://www.icij.org/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas"
-            },
-            "Entity": {
-                "name": "LIMA TRADING LIMITED",
-                "url": "https://offshoreleaks.icij.org/nodes/20043822"
-            },
-            "Jurisdiction": "Bahamas",
-            "Linked To": ""
-        },
-        {
-            "Data From": {
-                "source": "Bahamas Leaks",
-                "url": "https://www.icij.org/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas"
-            },
-            "Entity": {
-                "name": "LIMA CASTLE LIMITED",
-                "url": "https://offshoreleaks.icij.org/nodes/20078514"
-            },
-            "Jurisdiction": "Bahamas",
-            "Linked To": ""
-        },
-        {
-            "Data From": {
-                "source": "Bahamas Leaks",
-                "url": "https://www.icij.org/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas"
-            },
-            "Entity": {
-                "name": "LIMA HOLDINGS LIMITED",
-                "url": "https://offshoreleaks.icij.org/nodes/20175541"
-            },
-            "Jurisdiction": "Bahamas",
-            "Linked To": ""
-        },
-        {
-            "Data From": {
-                "source": "Bahamas Leaks",
-                "url": "https://www.icij.org/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas"
-            },
-            "Entity": {
-                "name": "UXMAI LIMA INC.",
-                "url": "https://offshoreleaks.icij.org/nodes/20107351"
-            },
-            "Jurisdiction": "Bahamas",
-            "Linked To": ""
-        },
-        {
-            "Data From": {
-                "source": "Paradise Papers",
-                "url": "https://www.icij.org/investigations/paradise-papers"
-            },
-            "Entity": {
-                "name": "DE LIMA TRADING",
-                "url": "https://offshoreleaks.icij.org/nodes/85006275"
-            },
-            "Jurisdiction": "Aruba",
-            "Linked To": ""
-        },
-        {
-            "Data From": {
-                "source": "Paradise Papers",
-                "url": "https://www.icij.org/investigations/paradise-papers"
-            },
-            "Entity": {
-                "name": "BINGTANG LIMA LIMITED",
-                "url": "https://offshoreleaks.icij.org/nodes/200113846"
-            },
-            "Jurisdiction": "Saint Kitts and Nevis",
-            "Linked To": ""
-        },
-        {
-            "Data From": {
-                "source": "Paradise Papers",
-                "url": "https://www.icij.org/investigations/paradise-papers"
-            },
-            "Entity": {
-                "name": "LIMA HOLDINGS LTD.",
-                "url": "https://offshoreleaks.icij.org/nodes/200125505"
-            },
-            "Jurisdiction": "Saint Kitts and Nevis",
-            "Linked To": ""
-        },
-        {
-            "Data From": {
-                "source": "Paradise Papers",
-                "url": "https://www.icij.org/investigations/paradise-papers"
-            },
-            "Entity": {
-                "name": "LIMA DEVELOPMENTS LIMITED",
-                "url": "https://offshoreleaks.icij.org/nodes/55043765"
-            },
-            "Jurisdiction": "Malta",
-            "Linked To": "Malta"
-        },
-        {
-            "Data From": {
-                "source": "Panama Papers",
-                "url": "https://www.icij.org/investigations/panama-papers"
-            },
-            "Entity": {
-                "name": "LEON LIMA HOLDINGS LTD.",
-                "url": "https://offshoreleaks.icij.org/nodes/10120316"
-            },
-            "Jurisdiction": "British Virgin Islands",
-            "Linked To": ""
-        },
-        {
-            "Data From": {
-                "source": "Offshore Leaks",
-                "url": "https://www.icij.org/investigations/offshore"
-            },
-            "Entity": {
-                "name": "Front Lima Private Limited",
-                "url": "https://offshoreleaks.icij.org/nodes/167613"
-            },
-            "Jurisdiction": "Cook Islands",
-            "Linked To": "Not identified"
-        },
-        {
-            "Data From": {
-                "source": "Offshore Leaks",
-                "url": "https://www.icij.org/investigations/offshore"
-            },
-            "Entity": {
-                "name": "LIMA TRADING GROUP INC.",
-                "url": "https://offshoreleaks.icij.org/nodes/231488"
-            },
-            "Jurisdiction": "Not identified",
-            "Linked To": "Russia, British Virgin Islands"
-        },
-        {
-            "Data From": {
-                "source": "Offshore Leaks",
-                "url": "https://www.icij.org/investigations/offshore"
-            },
-            "Entity": {
-                "name": "LIMA HOLDINGS INVEST LIMITED",
-                "url": "https://offshoreleaks.icij.org/nodes/211147"
-            },
-            "Jurisdiction": "Not identified",
-            "Linked To": "British Virgin Islands, United Kingdom"
-        },
-        {
-            "Data From": {
-                "source": "Panama Papers",
-                "url": "https://www.icij.org/investigations/panama-papers"
-            },
-            "Entity": {
-                "name": "Lima (B.V.I.) Ltd",
-                "url": "https://offshoreleaks.icij.org/nodes/10156979"
-            },
-            "Jurisdiction": "British Virgin Islands",
-            "Linked To": "Mauritius"
-        },
-        {
-            "Data From": {
-                "source": "Bahamas Leaks",
-                "url": "https://www.icij.org/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas"
-            },
-            "Entity": {
-                "name": "TANGO LIMA ECHO LTD.",
-                "url": "https://offshoreleaks.icij.org/nodes/20112717"
-            },
-            "Jurisdiction": "Bahamas",
-            "Linked To": ""
-        },
-        {
-            "Data From": {
-                "source": "Paradise Papers",
-                "url": "https://www.icij.org/investigations/paradise-papers"
-            },
-            "Entity": {
-                "name": "PIEDRA DURA LIMA CORPORATION",
-                "url": "https://offshoreleaks.icij.org/nodes/101735441"
-            },
-            "Jurisdiction": "Barbados",
-            "Linked To": "Barbados"
-        },
-        {
-            "Data From": {
-                "source": "Paradise Papers",
-                "url": "https://www.icij.org/investigations/paradise-papers"
-            },
-            "Entity": {
-                "name": "LIMA INVESTMENT GROUP LIMITED",
-                "url": "https://offshoreleaks.icij.org/nodes/200116532"
-            },
-            "Jurisdiction": "Saint Kitts and Nevis",
-            "Linked To": ""
-        },
-        {
-            "Data From": {
-                "source": "Paradise Papers",
-                "url": "https://www.icij.org/investigations/paradise-papers"
-            },
-            "Entity": {
-                "name": "Lima Trading Co. Limited",
-                "url": "https://offshoreleaks.icij.org/nodes/55039794"
-            },
-            "Jurisdiction": "Malta",
-            "Linked To": "Malta"
-        },
-        {
-            "Data From": {
-                "source": "Bahamas Leaks",
-                "url": "https://www.icij.org/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas"
-            },
-            "Entity": {
-                "name": "Rosa de Lima Investments Inc.",
-                "url": "https://offshoreleaks.icij.org/nodes/20149572"
-            },
-            "Jurisdiction": "Bahamas",
-            "Linked To": ""
-        },
-        {
-            "Data From": {
-                "source": "Paradise Papers",
-                "url": "https://www.icij.org/investigations/paradise-papers"
-            },
-            "Entity": {
-                "name": "DE LIMA TRADING/CARIBBEAN TREASURE",
-                "url": "https://offshoreleaks.icij.org/nodes/85006966"
-            },
-            "Jurisdiction": "Aruba",
-            "Linked To": ""
-        },
-        {
-            "Data From": {
-                "source": "Paradise Papers",
-                "url": "https://www.icij.org/investigations/paradise-papers"
-            },
-            "Entity": {
-                "name": "LIMA RIVER HOLDINGS CO. AVV",
-                "url": "https://offshoreleaks.icij.org/nodes/85017850"
-            },
-            "Jurisdiction": "Aruba",
-            "Linked To": ""
-        },
-        {
-            "Data From": {
-                "source": "Paradise Papers",
-                "url": "https://www.icij.org/investigations/paradise-papers"
-            },
-            "Entity": {
-                "name": "Y DE LIMA COMPANY LIMITED",
-                "url": "https://offshoreleaks.icij.org/nodes/30006953"
-            },
-            "Jurisdiction": "Bahamas",
-            "Linked To": "Bahamas"
-        },
-        {
-            "Data From": {
-                "source": "Paradise Papers",
-                "url": "https://www.icij.org/investigations/paradise-papers"
-            },
-            "Entity": {
-                "name": "Y. DE LIMA (BARBADOS) LIMITED",
-                "url": "https://offshoreleaks.icij.org/nodes/100300553"
-            },
-            "Jurisdiction": "Barbados",
-            "Linked To": "Barbados"
-        },
-        {
-            "Data From": {
-                "source": "Pandora Papers",
-                "url": "https://www.icij.org/investigations/pandora-papers"
-            },
-            "Entity": {
-                "name": "LIMA REAL ESTATE CONSULTING LLC",
-                "url": "https://offshoreleaks.icij.org/nodes/240461610"
-            },
-            "Jurisdiction": "United States of America",
-            "Linked To": ""
-        },
-        {
-            "Data From": {
-                "source": "Paradise Papers",
-                "url": "https://www.icij.org/investigations/paradise-papers"
-            },
-            "Entity": {
-                "name": "Y. DE LIMA (BARBADOS)HOLDINGS LIMITED",
-                "url": "https://offshoreleaks.icij.org/nodes/100300554"
-            },
-            "Jurisdiction": "Barbados",
-            "Linked To": "Barbados"
-        },
-        {
-            "Data From": {
-                "source": "Paradise Papers",
-                "url": "https://www.icij.org/investigations/paradise-papers"
-            },
-            "Entity": {
-                "name": "DE LIMA TRADING N.V. (I.L.)",
-                "url": "https://offshoreleaks.icij.org/nodes/85009725"
-            },
-            "Jurisdiction": "Aruba",
-            "Linked To": ""
-        }
-    ],
-    "world_bank_leaks": [
-        {
-            "hits": 22
-        },
-        {
-            "address": "115 GRIVA DIGENI AVENUE, TRIDENT CENTRE CY-3101, LIMASSOL",
-            "country": "Cyprus",
-            "firm_name": "BULACE INVESTMENTS LIMITED(Reg. No. 202215) *658",
-            "from_date": "13-Jun-2025",
-            "grounds": "Controlled Affiliate of a Sanctioned Entity",
-            "to_date": "01-Oct-2026"
-        },
-        {
-            "address": "SOUTH SIDE OF LIMAO STREET, GUANGZONG COUNTY, XINGTAI CITY, HEBEI PROVINCE",
-            "country": "China",
-            "firm_name": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED GUANGZONG COUNTY BRANCH河北建设集团股份有限公司广宗县分公司",
-            "from_date": "22-Aug-2024",
-            "grounds": "Cross Debarment: ADB",
-            "to_date": "22-Jul-2027"
-        },
-        {
-            "address": "DODOMA REGION, DODOMA CBD DISTRICT, KILIMANI WARD, WITHIN KAMBARAGE TOWER",
-            "country": "China",
-            "firm_name": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED TANZANIA BRANCH",
-            "from_date": "22-Aug-2024",
-            "grounds": "Cross Debarment: ADB",
-            "to_date": "22-Jul-2027"
-        },
-        {
-            "address": "NO. 256, AHE HIGHWAY, ALIMA TAMUCUN, JIYA COUNTY, HOTAN, XINJIANG",
-            "country": "China",
-            "firm_name": "HETIAN LAND PORT HUB CENTER MANAGEMENT CO., LTD.(和田陆港枢纽中心管理有限公司)(91653201MA793N9JXR)(ID: 91653201MA793N9JXR)*647",
-            "from_date": "30-Jan-2024",
-            "grounds": "Controlled Affiliate of a Sanctioned Entity",
-            "to_date": "29-May-2026"
-        },
-        {
-            "address": "AV. AUGUSTO FRANCO 3097, PAVIMENTO TÉRREO PONTO NOVO, ARACAJU - SE, 49047-040",
-            "country": "Brazil",
-            "firm_name": "FUTURA CLIMATIZAÇÃO DISTRIBUIDORA COMÉRCIO E SERVIÇOS LTDA.",
-            "from_date": "28-Dec-2023",
-            "grounds": "Cross Debarment: IDB",
-            "to_date": "31-Oct-2029"
-        },
-        {
-            "address": "AV. AURELIO MIROQUESADA NO. 576, DEPARTAMENTO 1001, DISTRITO DE SAN ISIDRO, PROVINCIA Y DEPARTAMENTO DE LIMA",
-            "country": "Peru",
-            "firm_name": "PEDRO ALEJANDRO EGUSQUIZA MELENDEZ",
-            "from_date": "02-Aug-2023",
-            "grounds": "Cross Debarment: IDB",
-            "to_date": "29-Jan-2026"
-        },
-        {
-            "address": "AV. JUAN DE ARONA NO. 151, OFICINA 1001, TORRE A, DISTRITO DE SAN ISIDRO, PROVINCIA Y DEPARTAMENTO DE LIMA",
-            "country": "Peru",
-            "firm_name": "AQUA RIL S.A.C.",
-            "from_date": "02-Aug-2023",
-            "grounds": "Cross Debarment: IDB",
-            "to_date": "29-Jan-2026"
-        },
-        {
-            "address": "CALLE DEAN VALDIVIA N.111, PISA 2, OFICINA 202, SAN ISIDRO, LIMA",
-            "country": "Peru",
-            "firm_name": "CONSTRUTORA COESA S.A. - SUCURSAL PERU",
-            "from_date": "18-Mar-2022",
-            "grounds": "Cross Debarment: IDB",
-            "to_date": "Permanent"
-        },
-        {
-            "address": "JIRON VICTOR MANTILLA NO. 237, 245 SURQUILLO, LIMA 34",
-            "country": "Peru",
-            "firm_name": "ESKE S.A.C.342",
-            "from_date": "26-Aug-2016",
-            "grounds": "Procurement Guidelines, 1.14(a)(ii)",
-            "to_date": "Ongoing"
-        },
-        {
-            "address": "AV. TAMARINDO MANZANA H LOTE 30, URBANIZACIÓN LA CAPULLANA, SANTIAGO DE SURCO, LIMA",
-            "country": "Peru",
-            "firm_name": "MR. PEDRO CESAR LAZO MONTEJO, also MR. PEDRO CÉSAR LAZO MONTEJO *340",
-            "from_date": "23-Aug-2016",
-            "grounds": "Procurement Guidelines, 1.14(a)(ii)",
-            "to_date": "Ongoing"
-        },
-        {
-            "address": "C/O ROPRUCSA CONTRATISTAS GENERALES S.A. (ROPRUCSA S.A.), AV. NARANJAL NO. 543, URBANIZACION NARANJAL, DISTRITO DE LOS OLIVOS 39, LIMA",
-            "country": "Peru",
-            "firm_name": "CONSORCIO OCONGATE*323",
-            "from_date": "24-May-2016",
-            "grounds": "Procurement Guidelines, 1.14(a)(ii)",
-            "to_date": "Ongoing"
-        },
-        {
-            "address": "AVENIDA NICOLÁS DE PIÉROLA 611-OF. 64, DISTRITO DE CERCADO DE LIMA, LIMA",
-            "country": "Peru",
-            "firm_name": "J&R CONTRATISTAS GENERALES S.R.L. (J&R S.R.L.)*312",
-            "from_date": "22-Mar-2016",
-            "grounds": "Procurement Guidelines, 1.14(a)(ii)",
-            "to_date": "Ongoing"
-        },
-        {
-            "address": "C/O ROPRUCSA CONTRATISTA GENERALES S.A., AV. NARANJAL NO. 543, URBANIZACION NARANJAL, DISTRITO DE LOS OLIVOS 39, LIMA",
-            "country": "Peru",
-            "firm_name": "CONSORCIO ROPRUCSA*307",
-            "from_date": "05-Feb-2016",
-            "grounds": "Procurement Guidelines, 1.14(a)(ii)",
-            "to_date": "Ongoing"
-        },
-        {
-            "address": "JR. CONDESUYO 549,A 3ER PISO, CERCADO DE LIMA",
-            "country": "Peru",
-            "firm_name": "CONSORCIO ROPRUCSA*307",
-            "from_date": "05-Feb-2016",
-            "grounds": "Procurement Guidelines, 1.14(a)(ii)",
-            "to_date": "Ongoing"
-        },
-        {
-            "address": "AV. NARANJAL NO. 543, URBANIZACION NARANJAL, DISTRITO DE LOS OLIVOS 39, LIMA",
-            "country": "Peru",
-            "firm_name": "ROPRUCSA CONTRATISTAS GENERALES S.A.*305",
-            "from_date": "02-Feb-2016",
-            "grounds": "Procurement Guidelines, 1.14(a)(ii)",
-            "to_date": "Ongoing"
-        },
-        {
-            "address": "CALLE RICARDO ÁNGULO 834, URB. CORPAC-SAN ISIDRO, LIMA",
-            "country": "Peru",
-            "firm_name": "PROJECT CONSTRUCTION S.A.C.*271",
-            "from_date": "23-Jun-2015",
-            "grounds": "Procurement Guidelines, 1.14(a)(ii)",
-            "to_date": "Ongoing"
-        },
-        {
-            "address": "CALLE RICARDO ÁNGULO 834, URB. CORPAC-SAN ISIDRO, LIMA",
-            "country": "Peru",
-            "firm_name": "ANGEL ZAMBRANO NAVARRO*260",
-            "from_date": "14-Apr-2015",
-            "grounds": "Procurement Guidelines, 1.14(a)(ii)",
-            "to_date": "Ongoing"
-        },
-        {
-            "address": "CALLE ATENAS NÚMERO 380, URBANIZACÍON SAN ROQUE – LOS OLIVOS, LIMA",
-            "country": "Peru",
-            "firm_name": "MR. LUIS SANCHEZ SANTUR, also MR. LUIS SÁNCHEZ SANTUR *258",
-            "from_date": "11-Mar-2015",
-            "grounds": "Consultant Guidelines, 1.22(a)(ii)",
-            "to_date": "Ongoing"
-        },
-        {
-            "address": "CALLE BAHIA MZ. U LOTE N. 7A, URB. SOL DE LA MOLINA II ETAPA, DISTRITO DE LA MOLINA, PROVINCIA Y DEPARTAMENTO DE LIMA",
-            "country": "Peru",
-            "firm_name": "MR. LUDWIG ATAHUALPA HUERTA*254",
-            "from_date": "25-Feb-2015",
-            "grounds": "Procurement Guidelines, 1.14(a)(ii)",
-            "to_date": "Ongoing"
-        },
-        {
-            "address": "C/O MASTERWALL S.A., AV. MELGAREJO 668 URB. SANTA PATRICIA, LA MOLINA, LIMA 12",
-            "country": "Peru",
-            "firm_name": "GABICE S.A.C.*253",
-            "from_date": "25-Feb-2015",
-            "grounds": "Procurement Guidelines, 1.14(a)(ii)",
-            "to_date": "Ongoing"
-        },
-        {
-            "address": "JIRÓN ALTO DE LA ALIANZA NO. 180, DPTO. 116, CERCADO DE LIMA",
-            "country": "Peru",
-            "firm_name": "MR. ARTURO JAVIER HARO GUTIÉRREZ*185",
-            "from_date": "19-Mar-2014",
-            "grounds": "Consultant Guidelines, 1.22(a)(ii)",
-            "to_date": "Ongoing"
-        },
-        {
-            "address": "MILIMANI FLATS, MILIMANI ROAD, OFF STATE HOUSE, P.O. BOX 10439-00400 NBI, NAIROBI",
-            "country": "Kenya",
-            "firm_name": "REEF BUILDING SYSTEMS LIMITED (REEF)*158",
-            "from_date": "09-Jul-2013",
-            "grounds": "Procurement Guidelines, 1.14(a)(ii)",
-            "to_date": "Ongoing"
-        }
-    ]
+    "results": {
+        "ofac_leaks": [
+            {
+                "hits": 2
+            },
+            {
+                "address": "Queens Plaza Center, Section 401; Property 132",
+                "list": "SDN",
+                "name": "ELIT LIMA",
+                "program": "SDGT",
+                "score": "100",
+                "type": "Entity"
+            },
+            {
+                "address": "Queens Plaza Center, Section 401; Property 132",
+                "list": "SDN",
+                "name": "ELIT LIMASSOL (LIMA) CO.",
+                "program": "SDGT",
+                "score": "100",
+                "type": "Entity"
+            }
+        ],
+        "offshore_leaks": [
+            {
+                "hits": 33
+            },
+            {
+                "Data From": {
+                    "source": "Panama Papers",
+                    "url": "https://www.icij.org/investigations/panama-papers"
+                },
+                "Entity": {
+                    "name": "LIMA FOUNDATION",
+                    "url": "https://offshoreleaks.icij.org/nodes/10162716"
+                },
+                "Jurisdiction": "Panama",
+                "Linked To": "Luxembourg"
+            },
+            {
+                "Data From": {
+                    "source": "Paradise Papers",
+                    "url": "https://www.icij.org/investigations/paradise-papers"
+                },
+                "Entity": {
+                    "name": "LIMA LIMITED",
+                    "url": "https://offshoreleaks.icij.org/nodes/30022131"
+                },
+                "Jurisdiction": "Bahamas",
+                "Linked To": "Bahamas"
+            },
+            {
+                "Data From": {
+                    "source": "Panama Papers",
+                    "url": "https://www.icij.org/investigations/panama-papers"
+                },
+                "Entity": {
+                    "name": "LIMA PROPERTIES S.A.",
+                    "url": "https://offshoreleaks.icij.org/nodes/10058978"
+                },
+                "Jurisdiction": "Panama",
+                "Linked To": "Panama"
+            },
+            {
+                "Data From": {
+                    "source": "Panama Papers",
+                    "url": "https://www.icij.org/investigations/panama-papers"
+                },
+                "Entity": {
+                    "name": "\"LIMA STROYCOM\" LTD.",
+                    "url": "https://offshoreleaks.icij.org/nodes/10039263"
+                },
+                "Jurisdiction": "Niue",
+                "Linked To": "Russia"
+            },
+            {
+                "Data From": {
+                    "source": "Panama Papers",
+                    "url": "https://www.icij.org/investigations/panama-papers"
+                },
+                "Entity": {
+                    "name": "LIMA INTERNATIONAL LIMITED",
+                    "url": "https://offshoreleaks.icij.org/nodes/10039906"
+                },
+                "Jurisdiction": "Niue",
+                "Linked To": "Cyprus"
+            },
+            {
+                "Data From": {
+                    "source": "Panama Papers",
+                    "url": "https://www.icij.org/investigations/panama-papers"
+                },
+                "Entity": {
+                    "name": "LIMA INTERNATIONAL LTD.",
+                    "url": "https://offshoreleaks.icij.org/nodes/10077782"
+                },
+                "Jurisdiction": "British Virgin Islands",
+                "Linked To": "Singapore"
+            },
+            {
+                "Data From": {
+                    "source": "Panama Papers",
+                    "url": "https://www.icij.org/investigations/panama-papers"
+                },
+                "Entity": {
+                    "name": "LIMA EQUITIES S.A.",
+                    "url": "https://offshoreleaks.icij.org/nodes/10019751"
+                },
+                "Jurisdiction": "Panama",
+                "Linked To": "Luxembourg"
+            },
+            {
+                "Data From": {
+                    "source": "Offshore Leaks",
+                    "url": "https://www.icij.org/investigations/offshore"
+                },
+                "Entity": {
+                    "name": "Lima Trading SA",
+                    "url": "https://offshoreleaks.icij.org/nodes/199245"
+                },
+                "Jurisdiction": "Not identified",
+                "Linked To": "British Virgin Islands, United Kingdom"
+            },
+            {
+                "Data From": {
+                    "source": "Bahamas Leaks",
+                    "url": "https://www.icij.org/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas"
+                },
+                "Entity": {
+                    "name": "LIMA TRADING LIMITED",
+                    "url": "https://offshoreleaks.icij.org/nodes/20043822"
+                },
+                "Jurisdiction": "Bahamas",
+                "Linked To": ""
+            },
+            {
+                "Data From": {
+                    "source": "Bahamas Leaks",
+                    "url": "https://www.icij.org/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas"
+                },
+                "Entity": {
+                    "name": "LIMA CASTLE LIMITED",
+                    "url": "https://offshoreleaks.icij.org/nodes/20078514"
+                },
+                "Jurisdiction": "Bahamas",
+                "Linked To": ""
+            },
+            {
+                "Data From": {
+                    "source": "Bahamas Leaks",
+                    "url": "https://www.icij.org/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas"
+                },
+                "Entity": {
+                    "name": "LIMA HOLDINGS LIMITED",
+                    "url": "https://offshoreleaks.icij.org/nodes/20175541"
+                },
+                "Jurisdiction": "Bahamas",
+                "Linked To": ""
+            },
+            {
+                "Data From": {
+                    "source": "Bahamas Leaks",
+                    "url": "https://www.icij.org/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas"
+                },
+                "Entity": {
+                    "name": "UXMAI LIMA INC.",
+                    "url": "https://offshoreleaks.icij.org/nodes/20107351"
+                },
+                "Jurisdiction": "Bahamas",
+                "Linked To": ""
+            },
+            {
+                "Data From": {
+                    "source": "Paradise Papers",
+                    "url": "https://www.icij.org/investigations/paradise-papers"
+                },
+                "Entity": {
+                    "name": "DE LIMA TRADING",
+                    "url": "https://offshoreleaks.icij.org/nodes/85006275"
+                },
+                "Jurisdiction": "Aruba",
+                "Linked To": ""
+            },
+            {
+                "Data From": {
+                    "source": "Paradise Papers",
+                    "url": "https://www.icij.org/investigations/paradise-papers"
+                },
+                "Entity": {
+                    "name": "BINGTANG LIMA LIMITED",
+                    "url": "https://offshoreleaks.icij.org/nodes/200113846"
+                },
+                "Jurisdiction": "Saint Kitts and Nevis",
+                "Linked To": ""
+            },
+            {
+                "Data From": {
+                    "source": "Paradise Papers",
+                    "url": "https://www.icij.org/investigations/paradise-papers"
+                },
+                "Entity": {
+                    "name": "LIMA HOLDINGS LTD.",
+                    "url": "https://offshoreleaks.icij.org/nodes/200125505"
+                },
+                "Jurisdiction": "Saint Kitts and Nevis",
+                "Linked To": ""
+            },
+            {
+                "Data From": {
+                    "source": "Paradise Papers",
+                    "url": "https://www.icij.org/investigations/paradise-papers"
+                },
+                "Entity": {
+                    "name": "LIMA DEVELOPMENTS LIMITED",
+                    "url": "https://offshoreleaks.icij.org/nodes/55043765"
+                },
+                "Jurisdiction": "Malta",
+                "Linked To": "Malta"
+            },
+            {
+                "Data From": {
+                    "source": "Panama Papers",
+                    "url": "https://www.icij.org/investigations/panama-papers"
+                },
+                "Entity": {
+                    "name": "LEON LIMA HOLDINGS LTD.",
+                    "url": "https://offshoreleaks.icij.org/nodes/10120316"
+                },
+                "Jurisdiction": "British Virgin Islands",
+                "Linked To": ""
+            },
+            {
+                "Data From": {
+                    "source": "Offshore Leaks",
+                    "url": "https://www.icij.org/investigations/offshore"
+                },
+                "Entity": {
+                    "name": "Front Lima Private Limited",
+                    "url": "https://offshoreleaks.icij.org/nodes/167613"
+                },
+                "Jurisdiction": "Cook Islands",
+                "Linked To": "Not identified"
+            },
+            {
+                "Data From": {
+                    "source": "Offshore Leaks",
+                    "url": "https://www.icij.org/investigations/offshore"
+                },
+                "Entity": {
+                    "name": "LIMA TRADING GROUP INC.",
+                    "url": "https://offshoreleaks.icij.org/nodes/231488"
+                },
+                "Jurisdiction": "Not identified",
+                "Linked To": "Russia, British Virgin Islands"
+            },
+            {
+                "Data From": {
+                    "source": "Offshore Leaks",
+                    "url": "https://www.icij.org/investigations/offshore"
+                },
+                "Entity": {
+                    "name": "LIMA HOLDINGS INVEST LIMITED",
+                    "url": "https://offshoreleaks.icij.org/nodes/211147"
+                },
+                "Jurisdiction": "Not identified",
+                "Linked To": "British Virgin Islands, United Kingdom"
+            },
+            {
+                "Data From": {
+                    "source": "Panama Papers",
+                    "url": "https://www.icij.org/investigations/panama-papers"
+                },
+                "Entity": {
+                    "name": "Lima (B.V.I.) Ltd",
+                    "url": "https://offshoreleaks.icij.org/nodes/10156979"
+                },
+                "Jurisdiction": "British Virgin Islands",
+                "Linked To": "Mauritius"
+            },
+            {
+                "Data From": {
+                    "source": "Bahamas Leaks",
+                    "url": "https://www.icij.org/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas"
+                },
+                "Entity": {
+                    "name": "TANGO LIMA ECHO LTD.",
+                    "url": "https://offshoreleaks.icij.org/nodes/20112717"
+                },
+                "Jurisdiction": "Bahamas",
+                "Linked To": ""
+            },
+            {
+                "Data From": {
+                    "source": "Paradise Papers",
+                    "url": "https://www.icij.org/investigations/paradise-papers"
+                },
+                "Entity": {
+                    "name": "PIEDRA DURA LIMA CORPORATION",
+                    "url": "https://offshoreleaks.icij.org/nodes/101735441"
+                },
+                "Jurisdiction": "Barbados",
+                "Linked To": "Barbados"
+            },
+            {
+                "Data From": {
+                    "source": "Paradise Papers",
+                    "url": "https://www.icij.org/investigations/paradise-papers"
+                },
+                "Entity": {
+                    "name": "LIMA INVESTMENT GROUP LIMITED",
+                    "url": "https://offshoreleaks.icij.org/nodes/200116532"
+                },
+                "Jurisdiction": "Saint Kitts and Nevis",
+                "Linked To": ""
+            },
+            {
+                "Data From": {
+                    "source": "Paradise Papers",
+                    "url": "https://www.icij.org/investigations/paradise-papers"
+                },
+                "Entity": {
+                    "name": "Lima Trading Co. Limited",
+                    "url": "https://offshoreleaks.icij.org/nodes/55039794"
+                },
+                "Jurisdiction": "Malta",
+                "Linked To": "Malta"
+            },
+            {
+                "Data From": {
+                    "source": "Bahamas Leaks",
+                    "url": "https://www.icij.org/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas"
+                },
+                "Entity": {
+                    "name": "Rosa de Lima Investments Inc.",
+                    "url": "https://offshoreleaks.icij.org/nodes/20149572"
+                },
+                "Jurisdiction": "Bahamas",
+                "Linked To": ""
+            },
+            {
+                "Data From": {
+                    "source": "Paradise Papers",
+                    "url": "https://www.icij.org/investigations/paradise-papers"
+                },
+                "Entity": {
+                    "name": "DE LIMA TRADING/CARIBBEAN TREASURE",
+                    "url": "https://offshoreleaks.icij.org/nodes/85006966"
+                },
+                "Jurisdiction": "Aruba",
+                "Linked To": ""
+            },
+            {
+                "Data From": {
+                    "source": "Paradise Papers",
+                    "url": "https://www.icij.org/investigations/paradise-papers"
+                },
+                "Entity": {
+                    "name": "LIMA RIVER HOLDINGS CO. AVV",
+                    "url": "https://offshoreleaks.icij.org/nodes/85017850"
+                },
+                "Jurisdiction": "Aruba",
+                "Linked To": ""
+            },
+            {
+                "Data From": {
+                    "source": "Paradise Papers",
+                    "url": "https://www.icij.org/investigations/paradise-papers"
+                },
+                "Entity": {
+                    "name": "Y DE LIMA COMPANY LIMITED",
+                    "url": "https://offshoreleaks.icij.org/nodes/30006953"
+                },
+                "Jurisdiction": "Bahamas",
+                "Linked To": "Bahamas"
+            },
+            {
+                "Data From": {
+                    "source": "Paradise Papers",
+                    "url": "https://www.icij.org/investigations/paradise-papers"
+                },
+                "Entity": {
+                    "name": "Y. DE LIMA (BARBADOS) LIMITED",
+                    "url": "https://offshoreleaks.icij.org/nodes/100300553"
+                },
+                "Jurisdiction": "Barbados",
+                "Linked To": "Barbados"
+            },
+            {
+                "Data From": {
+                    "source": "Pandora Papers",
+                    "url": "https://www.icij.org/investigations/pandora-papers"
+                },
+                "Entity": {
+                    "name": "LIMA REAL ESTATE CONSULTING LLC",
+                    "url": "https://offshoreleaks.icij.org/nodes/240461610"
+                },
+                "Jurisdiction": "United States of America",
+                "Linked To": ""
+            },
+            {
+                "Data From": {
+                    "source": "Paradise Papers",
+                    "url": "https://www.icij.org/investigations/paradise-papers"
+                },
+                "Entity": {
+                    "name": "Y. DE LIMA (BARBADOS)HOLDINGS LIMITED",
+                    "url": "https://offshoreleaks.icij.org/nodes/100300554"
+                },
+                "Jurisdiction": "Barbados",
+                "Linked To": "Barbados"
+            },
+            {
+                "Data From": {
+                    "source": "Paradise Papers",
+                    "url": "https://www.icij.org/investigations/paradise-papers"
+                },
+                "Entity": {
+                    "name": "DE LIMA TRADING N.V. (I.L.)",
+                    "url": "https://offshoreleaks.icij.org/nodes/85009725"
+                },
+                "Jurisdiction": "Aruba",
+                "Linked To": ""
+            }
+        ],
+        "world_bank_leaks": [
+            {
+                "hits": 22
+            },
+            {
+                "address": "115 GRIVA DIGENI AVENUE, TRIDENT CENTRE CY-3101, LIMASSOL",
+                "country": "Cyprus",
+                "firm_name": "BULACE INVESTMENTS LIMITED",
+                "from_date": "13-Jun-2025",
+                "grounds": "Controlled Affiliate of a Sanctioned Entity",
+                "to_date": "01-Oct-2026"
+            },
+            {
+                "address": "DODOMA REGION, DODOMA CBD DISTRICT, KILIMANI WARD, WITHIN KAMBARAGE TOWER",
+                "country": "China",
+                "firm_name": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED TANZANIA BRANCH",
+                "from_date": "22-Aug-2024",
+                "grounds": "Cross Debarment: ADB",
+                "to_date": "22-Jul-2027"
+            },
+            {
+                "address": "SOUTH SIDE OF LIMAO STREET, GUANGZONG COUNTY, XINGTAI CITY, HEBEI PROVINCE",
+                "country": "China",
+                "firm_name": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED GUANGZONG COUNTY BRANCH河北建设集团股份有限公司广宗县分公司",
+                "from_date": "22-Aug-2024",
+                "grounds": "Cross Debarment: ADB",
+                "to_date": "22-Jul-2027"
+            },
+            {
+                "address": "NO. 256, AHE HIGHWAY, ALIMA TAMUCUN, JIYA COUNTY, HOTAN, XINJIANG",
+                "country": "China",
+                "firm_name": "HETIAN LAND PORT HUB CENTER MANAGEMENT CO., LTD.(和田陆港枢纽中心管理有限公司)(91653201MA793N9JXR)(ID: 91653201MA793N9JXR)*647",
+                "from_date": "30-Jan-2024",
+                "grounds": "Controlled Affiliate of a Sanctioned Entity",
+                "to_date": "29-May-2026"
+            },
+            {
+                "address": "AV. AUGUSTO FRANCO 3097, PAVIMENTO TÉRREO PONTO NOVO, ARACAJU - SE, 49047-040",
+                "country": "Brazil",
+                "firm_name": "FUTURA CLIMATIZAÇÃO DISTRIBUIDORA COMÉRCIO E SERVIÇOS LTDA.",
+                "from_date": "28-Dec-2023",
+                "grounds": "Cross Debarment: IDB",
+                "to_date": "31-Oct-2029"
+            },
+            {
+                "address": "AV. AURELIO MIROQUESADA NO. 576, DEPARTAMENTO 1001, DISTRITO DE SAN ISIDRO, PROVINCIA Y DEPARTAMENTO DE LIMA",
+                "country": "Peru",
+                "firm_name": "PEDRO ALEJANDRO EGUSQUIZA MELENDEZ",
+                "from_date": "02-Aug-2023",
+                "grounds": "Cross Debarment: IDB",
+                "to_date": "29-Jan-2026"
+            },
+            {
+                "address": "AV. JUAN DE ARONA NO. 151, OFICINA 1001, TORRE A, DISTRITO DE SAN ISIDRO, PROVINCIA Y DEPARTAMENTO DE LIMA",
+                "country": "Peru",
+                "firm_name": "AQUA RIL S.A.C.",
+                "from_date": "02-Aug-2023",
+                "grounds": "Cross Debarment: IDB",
+                "to_date": "29-Jan-2026"
+            },
+            {
+                "address": "CALLE DEAN VALDIVIA N.111, PISA 2, OFICINA 202, SAN ISIDRO, LIMA",
+                "country": "Peru",
+                "firm_name": "CONSTRUTORA COESA S.A. - SUCURSAL PERU",
+                "from_date": "18-Mar-2022",
+                "grounds": "Cross Debarment: IDB",
+                "to_date": "Permanent"
+            },
+            {
+                "address": "JIRON VICTOR MANTILLA NO. 237, 245 SURQUILLO, LIMA 34",
+                "country": "Peru",
+                "firm_name": "ESKE S.A.C.342",
+                "from_date": "26-Aug-2016",
+                "grounds": "Procurement Guidelines, 1.14(a)(ii)",
+                "to_date": "Ongoing"
+            },
+            {
+                "address": "AV. TAMARINDO MANZANA H LOTE 30, URBANIZACIÓN LA CAPULLANA, SANTIAGO DE SURCO, LIMA",
+                "country": "Peru",
+                "firm_name": "MR. PEDRO CESAR LAZO MONTEJO(湖南建设集团有限公司) *301",
+                "from_date": "23-Aug-2016",
+                "grounds": "Procurement Guidelines, 1.14(a)(ii)",
+                "to_date": "Ongoing"
+            },
+            {
+                "address": "C/O ROPRUCSA CONTRATISTAS GENERALES S.A. (ROPRUCSA S.A.), AV. NARANJAL NO. 543, URBANIZACION NARANJAL, DISTRITO DE LOS OLIVOS 39, LIMA",
+                "country": "Peru",
+                "firm_name": "CONSORCIO OCONGATE*323",
+                "from_date": "24-May-2016",
+                "grounds": "Procurement Guidelines, 1.14(a)(ii)",
+                "to_date": "Ongoing"
+            },
+            {
+                "address": "AVENIDA NICOLÁS DE PIÉROLA 611-OF. 64, DISTRITO DE CERCADO DE LIMA, LIMA",
+                "country": "Peru",
+                "firm_name": "J&R CONTRATISTAS GENERALES S.R.L. (J&R S.R.L.)*312",
+                "from_date": "22-Mar-2016",
+                "grounds": "Procurement Guidelines, 1.14(a)(ii)",
+                "to_date": "Ongoing"
+            },
+            {
+                "address": "C/O ROPRUCSA CONTRATISTA GENERALES S.A., AV. NARANJAL NO. 543, URBANIZACION NARANJAL, DISTRITO DE LOS OLIVOS 39, LIMA",
+                "country": "Peru",
+                "firm_name": "CONSORCIO ROPRUCSA*307",
+                "from_date": "05-Feb-2016",
+                "grounds": "Procurement Guidelines, 1.14(a)(ii)",
+                "to_date": "Ongoing"
+            },
+            {
+                "address": "JR. CONDESUYO 549,A 3ER PISO, CERCADO DE LIMA",
+                "country": "Peru",
+                "firm_name": "CONSORCIO ROPRUCSA*307",
+                "from_date": "05-Feb-2016",
+                "grounds": "Procurement Guidelines, 1.14(a)(ii)",
+                "to_date": "Ongoing"
+            },
+            {
+                "address": "AV. NARANJAL NO. 543, URBANIZACION NARANJAL, DISTRITO DE LOS OLIVOS 39, LIMA",
+                "country": "Peru",
+                "firm_name": "ROPRUCSA CONTRATISTAS GENERALES S.A.*325",
+                "from_date": "02-Feb-2016",
+                "grounds": "Procurement Guidelines, 1.14(a)(ii)",
+                "to_date": "Ongoing"
+            },
+            {
+                "address": "CALLE RICARDO ÁNGULO 834, URB. CORPAC-SAN ISIDRO, LIMA",
+                "country": "Peru",
+                "firm_name": "PROJECT CONSTRUCTION S.A.C.*239",
+                "from_date": "23-Jun-2015",
+                "grounds": "Procurement Guidelines, 1.14(a)(ii)",
+                "to_date": "Ongoing"
+            },
+            {
+                "address": "CALLE RICARDO ÁNGULO 834, URB. CORPAC-SAN ISIDRO, LIMA",
+                "country": "Peru",
+                "firm_name": "ANGEL ZAMBRANO NAVARRO, also MR. LUIS SÁNCHEZ SANTUR *258",
+                "from_date": "14-Apr-2015",
+                "grounds": "Procurement Guidelines, 1.14(a)(ii)",
+                "to_date": "Ongoing"
+            },
+            {
+                "address": "CALLE ATENAS NÚMERO 380, URBANIZACÍON SAN ROQUE – LOS OLIVOS, LIMA",
+                "country": "Peru",
+                "firm_name": "MR. LUIS SANCHEZ SANTUR*257",
+                "from_date": "11-Mar-2015",
+                "grounds": "Consultant Guidelines, 1.22(a)(ii)",
+                "to_date": "Ongoing"
+            },
+            {
+                "address": "CALLE BAHIA MZ. U LOTE N. 7A, URB. SOL DE LA MOLINA II ETAPA, DISTRITO DE LA MOLINA, PROVINCIA Y DEPARTAMENTO DE LIMA",
+                "country": "Peru",
+                "firm_name": "MR. LUDWIG ATAHUALPA HUERTA*260",
+                "from_date": "25-Feb-2015",
+                "grounds": "Procurement Guidelines, 1.14(a)(ii)",
+                "to_date": "Ongoing"
+            },
+            {
+                "address": "C/O MASTERWALL S.A., AV. MELGAREJO 668 URB. SANTA PATRICIA, LA MOLINA, LIMA 12",
+                "country": "Peru",
+                "firm_name": "GABICE S.A.C.*253",
+                "from_date": "25-Feb-2015",
+                "grounds": "Procurement Guidelines, 1.14(a)(ii)",
+                "to_date": "Ongoing"
+            },
+            {
+                "address": "JIRÓN ALTO DE LA ALIANZA NO. 180, DPTO. 116, CERCADO DE LIMA",
+                "country": "Peru",
+                "firm_name": "MR. ARTURO JAVIER HARO GUTIÉRREZ*185",
+                "from_date": "19-Mar-2014",
+                "grounds": "Consultant Guidelines, 1.22(a)(ii)",
+                "to_date": "Ongoing"
+            },
+            {
+                "address": "MILIMANI FLATS, MILIMANI ROAD, OFF STATE HOUSE, P.O. BOX 10439-00400 NBI, NAIROBI",
+                "country": "Kenya",
+                "firm_name": "REEF BUILDING SYSTEMS LIMITED (REEF)*158",
+                "from_date": "09-Jul-2013",
+                "grounds": "Procurement Guidelines, 1.14(a)(ii)",
+                "to_date": "Ongoing"
+            }
+        ]
+    }
 }

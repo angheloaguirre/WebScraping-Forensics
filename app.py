@@ -68,31 +68,43 @@ def scrape():
     if not entity_name: # Si no se proporciona 'entity', devolvemos un error
         return jsonify({"error": "Debe proporcionar el nombre de la entidad"}), 400
 
+    # Obtenemos los parámetros booleanos para cada fuente de datos
+    offshore = request.args.get('offshore', 'false').lower() == 'true'
+    print(offshore)
+    world_bank = request.args.get('worldBank', 'false').lower() == 'true'
+    print(world_bank)
+    ofac = request.args.get('ofac', 'false').lower() == 'true'
+    print(ofac)
+    
     # Incrementamos el contador de solicitudes
     request_count += 1
 
-    # Ejecutamos el scraping en los tres sitios web
-    # En Offshore Leaks
-    offshore_data = offshore_leaks_scraping(entity_name)
-    offshore_hits = offshore_data['hits']
+    # Resultados de scraping por fuente
+    results = {}
 
-    # En World Bank
-    world_bank_data = world_bank_scraping(entity_name)
-    world_bank_hits = world_bank_data['hits']
+    # Cantidad de hits obtenidos
+    total_hits = 0
 
-    # En OFAC
-    ofac_data = ofac_scraping(entity_name)
-    ofac_hits = ofac_data['hits']
+    # Ejecutamos el scraping en los sitios web deseados
+    if offshore:
+        offshore_data = offshore_leaks_scraping(entity_name)
+        results['offshore_leaks'] = offshore_data['results']
+        total_hits += offshore_data['hits']
+    
+    if world_bank:
+        world_bank_data = world_bank_scraping(entity_name)
+        results['world_bank_leaks'] = world_bank_data['results']
+        total_hits += world_bank_data['hits']
 
-    # Sumamos los hits de los tres sitios web
-    total_hits = offshore_hits + world_bank_hits + ofac_hits
+    if ofac:
+        ofac_data = ofac_scraping(entity_name)
+        results['ofac_leaks'] = ofac_data['results']
+        total_hits += ofac_data['hits']
     
     # Devolvemos los resultados en formato JSON con los datos y la cantidad de hits encontrados
     return jsonify({"hits": total_hits, 
-                    "offshore_leaks": offshore_data['results'], 
-                    "world_bank_leaks": world_bank_data['results'], 
-                    "ofac_leaks": ofac_data['results']
-                    })
+                    "results": results
+    })
 
 # Arrancar un hilo para imprimir el tiempo transcurrido sin bloquear el servidor
 if __name__ == '__main__':
